@@ -28,7 +28,7 @@ w = (w1.^p1).*(w2.^p2);
 w = refine_weight(w);
 
 %% fuse images using pyramid decomposition
-lev = 6;
+lev = 7;
 img_result = fusion_pyramid(imgs_rgb, w, lev);
 
 %% show and save result image (optional)
